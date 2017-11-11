@@ -18,7 +18,7 @@ const UNK = 'UNK';
  * Docs: https://developers.facebook.com/docs/messenger-platform/send-messages
  */
 const onMessage = ({sender, intent, entities, text, reply}) => {
-    
+    console.log("Data:", sender, intent, entities, text, reply)
     // Replace the code here
     reply([
         {
